@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main {
+    width: 630px;
+    height: 100%;
+}
+
+.title {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+
+.box {
+
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 10px #888888;
+
+}
+
+.image {
+    height: 35%;
+    width: 100%;
+
+    padding-bottom: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.job {
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    color: rgb(115, 149, 160);
+    padding-bottom: 5px;
+transition: 0.3s;
+}
+
+.text {
+    padding: 15px;
+    height: 100px;
+    transition: 0.3s;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.btn2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.nextpre {
+    height: 30px;
+    width: 30px;
+    padding: 2px;
+    border-radius: 50%;
+    color: lightblue;
+    border: lightblue solid 3px;
+    transition: 0.3s;
+}
+
+.nextpre:hover {
+    background-color: lightblue;
+    color: black;
+
+}
+
+.surprise {
+    background-color: transparent;
+    border: lightblue solid 2px;
+}
+
+.surprise:hover {
+    background-color: lightblue;
+}
+img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border-right:7px rgb(73, 208, 253) solid ;
+    object-fit: cover;
+    transition: 0.3s;
+ 
+}
